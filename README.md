@@ -4,7 +4,7 @@
 A library to help you design your react-native app for notched iPhones.
 
 ## Installing ##
-`npm i react-native-IphoneXHelper --save`
+`npm i react-native-iphonexhelper --save`
 
 ## API ##
 
@@ -21,7 +21,7 @@ this method it for creating stylesheets with the iPhone X in mind
 // in style.js
 
 import { StyleSheet } from 'react-native';
-import { ifIphoneX } from 'react-native-IphoneXHelper'
+import { ifIphoneX } from 'react-native-iphonexhelper'
 
 export default StyleSheet.create({
     header:{
@@ -47,7 +47,7 @@ export default StyleSheet.create({
 
 #### Example ####
 ```js
-import { isIphoneX } from 'react-native-IphoneXHelper'
+import { isIphoneX } from 'react-native-iphonexhelper'
 
 // ...
 
@@ -71,7 +71,7 @@ if (isIphoneX()) {
 // in style.js
 
 import { StyleSheet } from 'react-native';
-import { getStatusBarHeight } from 'react-native-IphoneXHelper'
+import { getStatusBarHeight } from 'react-native-iphonexhelper'
 
 export default StyleSheet.create({
     header:{
@@ -99,7 +99,7 @@ export default StyleSheet.create({
 // in style.js
 
 import { StyleSheet } from 'react-native';
-import { getBottomSpace } from 'react-native-IphoneXHelper'
+import { getBottomSpace } from 'react-native-iphonexhelper'
 
 export default StyleSheet.create({
     totalview: {
